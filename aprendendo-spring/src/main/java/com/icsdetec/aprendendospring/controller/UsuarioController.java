@@ -18,6 +18,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class UsuarioController {
 
+
    private final UsuarioService usuarioService;
    private final AuthenticationManager authenticationManager;
    private final JwtUtil jwtUtil;
